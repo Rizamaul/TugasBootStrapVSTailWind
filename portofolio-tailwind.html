@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Riza Maulana</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <header class="bg-blue-600 text-white text-center py-6 shadow-md">
+    <h1 class="text-3xl font-bold">Riza Maulana</h1>
+    <p class="text-sm">Mahasiswa Ilmu Komputer | Universitas Pertamina</p>
+    <nav class="mt-3 space-x-4">
+      <a href="#tentang" class="hover:underline font-semibold">Tentang Saya</a>
+      <a href="#proyek" class="hover:underline font-semibold">Proyek</a>
+      <a href="#galeri" class="hover:underline font-semibold">Galeri</a>
+      <a href="#kontak" class="hover:underline font-semibold">Kontak</a>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+
+    <section id="tentang" class="mb-12">
+      <div class="md:flex md:space-x-6 items-center">
+        <div class="md:w-1/3 flex flex-col items-center">
+          <img src="fotoriza.jpg" alt="Foto Profil" class="rounded-full border-4 border-blue-600 shadow-lg">
+          <h5 class="mt-2 text-blue-600 font-bold">Riza Maulana</h5>
+        </div>
+        <div class="md:w-2/3 mt-6 md:mt-0">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-2xl font-bold text-blue-600 mb-2">Tentang Saya</h3>
+            <p class="text-gray-700 leading-relaxed">
+              Halo! Saya <span class="font-semibold">Riza Maulana</span> (NIM: 105223045), seorang mahasiswa 
+              <span class="font-semibold">Ilmu Komputer</span> dari 
+              <span class="font-semibold">Universitas Pertamina</span> yang memiliki minat besar di bidang 
+              <span class="font-semibold">pengembangan game</span> dan <span class="font-semibold">desain kreatif</span>. 
+              Saya bersemangat untuk mempelajari teknologi baru dan menerapkannya dalam proyek-proyek menarik.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyek" class="mb-12 text-center">
+      <h3 class="text-2xl font-bold text-blue-600 mb-6">Proyek Saya</h3>
+      <div class="flex justify-center">
+        <div class="bg-white rounded-lg shadow-md p-6 max-w-md">
+          <h5 class="font-bold text-blue-600 mb-2">Game Petualangan</h5>
+          <p class="text-gray-700">Sebuah game 2D yang menampilkan karakter utama menjelajahi dunia fantasi penuh teka-teki dan tantangan menarik.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="mb-12 text-center">
+      <h3 class="text-2xl font-bold text-blue-600 mb-6">Galeri Proyek</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="satu.png" alt="Proyek 1" class="w-full">
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="dua.png" alt="Proyek 2" class="w-full">
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="satu.png" alt="Proyek 3" class="w-full">
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="satu.png" alt="Proyek 4" class="w-full">
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="satu.png" alt="Proyek 5" class="w-full">
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="satu.png" alt="Proyek 6" class="w-full">
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="text-center">
+      <h3 class="text-2xl font-bold text-blue-600 mb-6">Kontak</h3>
+      <div class="bg-white shadow-md rounded-lg max-w-md mx-auto p-6">
+        <form>
+          <div class="mb-4 text-left">
+            <label class="block text-gray-700 text-sm font-bold mb-2">Nama</label>
+            <input type="text" placeholder="Masukkan nama Anda" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div class="mb-4 text-left">
+            <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+            <input type="email" placeholder="Masukkan email Anda" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div class="mb-4 text-left">
+            <label class="block text-gray-700 text-sm font-bold mb-2">Pesan</label>
+            <textarea rows="3" placeholder="Tulis pesan Anda" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+          <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full focus:outline-none focus:ring-2 focus:ring-blue-400">
+            Kirim
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-blue-600 text-white text-center py-3 mt-12">
+    <small>&copy; 2025 Riza Maulana</small>
+  </footer>
+
+</body>
+</html>
